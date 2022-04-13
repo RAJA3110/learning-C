@@ -3,7 +3,7 @@ int main()
 {
     int i , j  ;
     int n , m ;
-    int a='A';
+    int count;
     printf("enter the pattern detail such as row\n");
     scanf("%d", &m );  
     printf("enter the pattern detail such as colunm\n");
@@ -12,9 +12,16 @@ int main()
         {
             for(j=1;j<=n;j++)
             {
-                printf("%c ",a);
-                a=a+1;
+                printf("| ",j);
+                printf("_ ",j);
+
             }
+            for(j=1;j<=1;j++)
+            {
+                printf("| ",j);
+
+            }
+
            printf("\n");     
         }
     return 0;

@@ -13,8 +13,8 @@ int main()
             for(j=1;j<=n;j++)
             {
                 printf("%c ",a);
-                a=a+1;
             }
+            a=a+1;
            printf("\n");     
         }
     return 0;
